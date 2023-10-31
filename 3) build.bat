@@ -2,7 +2,7 @@
 :: Cleaning old files.
 rmdir beta /s /q
 :: Merging two modpacks
-xcopy base\*.* beta\ /e
+xcopy framework\*.* beta\ /e
 xcopy mod\*.* beta\ /e /y
 :: Removing unused files.
 del beta\README.md
